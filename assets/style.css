@@ -1,0 +1,133 @@
+/* reset css */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* common */
+
+.grey{
+    background-color: #b6b6b6;
+}
+
+.grey-light{
+    background-color: rgb(237 237 237);
+}
+
+.red{
+    background-color: rgb(156, 20, 20);
+}
+
+.green{
+    background-color: rgb(75 196 156);
+}
+
+.margin-8{
+    margin: 8px; 
+}
+
+
+.text-white{
+    color: #fff;
+}
+
+.text-black{
+    color: #000;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.box{
+    margin:  32px 4px 0 4px;
+    padding: 24px 0;
+}
+
+.col-half{
+    width: 50%;
+}
+
+.col-third{
+    width: calc(100%/3);
+}
+
+.row{
+    display: flex;
+}
+
+.radius{
+    border-radius: 13px;
+}
+
+
+
+/* main */
+
+#header h1{
+    color: red;
+    text-align: center;
+    margin: 16px 0;
+}
+
+#header h3{
+    color:blue;
+    text-align: center;
+}
+
+#content h2{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.box{
+    margin: 32px 4px 32px 4px;
+}
+
+.nd{
+    margin: 0 100px;
+    font-size: 18px;
+}
+
+.item{
+    margin: 12px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.col-center{
+    margin: auto;
+    width: calc(100%/3);
+
+}
+
+.button{
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content .button{
+    margin: 12px;
+    display: block;
+}
+#footer .button{
+    margin: 36px;
+}
+
